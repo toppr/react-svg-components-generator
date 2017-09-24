@@ -1,0 +1,42 @@
+{
+  "name": "react-svg-icon-components-generator",
+  "version": "0.1.0",
+  "description": "Generate React Icon Components from SVG files",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toppr/react-svg-icon-components-generator.git"
+  },
+  "keywords": [
+    "react",
+    "svg",
+    "icon"
+  ],
+  "contributors": [
+    {
+      "name": "Gautam Chaudhary",
+      "email": "gkcgautam@gmail.com",
+      "url": "https://www.gautamchaudhary.com"
+    },
+    {
+      "name": "Rajat Barman",
+      "email": "rajatbarman@yahoo.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toppr/react-svg-icon-components-generator/issues"
+  },
+  "homepage": "https://github.com/toppr/react-svg-icon-components-generator#readme",
+  "dependencies": {
+    "fs-extra": "^4.0.2",
+    "glob": "^7.1.2",
+    "jsdom": "^11.2.0",
+    "lodash": "^4.17.4",
+    "nunjucks": "^3.0.1",
+    "svgo": "^0.7.2"
+  }
+}
