@@ -2,9 +2,9 @@ import React from 'react';
 import IconBase from '{{iconBaseComponentPath}}';
 
 const {{componentName}} = (props) => (
-    <Icon viewBox="{{viewBox}}" {...props}>
+    <IconBase viewBox="{{viewBox}}" {...props}>
         {{content}}
-    </Icon>
+    </IconBase>
 );
 
 export default {{componentName}};
