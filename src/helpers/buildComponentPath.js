@@ -1,5 +1,5 @@
 const path = require('path');
-const captalizeComponentPath = require('./captalizeComponentPath');
+const capitalizeComponentPath = require('./capitalizeComponentPath');
 
 function buildComponentPath(options = {}) {
     const {
@@ -12,7 +12,7 @@ function buildComponentPath(options = {}) {
 
     const svgRelativePath = path.parse(path.relative(svgSrcDir, svgPath));
     const componentRelativePathStr = path.join(svgRelativePath.dir, `${prefix}${svgRelativePath.name}${suffix}`);
-    return path.join(componentDestDir, captalizeComponentPath(componentRelativePathStr));
+    return path.join(componentDestDir, capitalizeComponentPath(componentRelativePathStr));
 }
 
 module.exports = buildComponentPath;
