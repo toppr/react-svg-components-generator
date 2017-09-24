@@ -10,7 +10,7 @@ function setElementColorAttributeValue(element, value, attributes = ['fill', 'st
     });
 
     if (element.children && element.children.length) {
-        element.children.forEach((element) => {
+        Array.prototype.forEach.call(element.children, (element) => {
             setElementColorAttributeValue(element, value);
         });
     }

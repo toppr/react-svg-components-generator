@@ -11,7 +11,7 @@ function camelizeElementAttributes(element) {
     });
 
     if (element.children && element.children.length) {
-        element.children.forEach((element) => {
+        Array.prototype.forEach.call(element.children, (element) => {
             camelizeElementAttributes(element);
         });
     }
