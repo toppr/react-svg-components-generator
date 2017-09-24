@@ -1,0 +1,10 @@
+import React from 'react';
+import IconBase from '{{iconBaseComponentPath}}';
+
+const {{componentName}} = (props) => (
+    <Icon viewBox="{{viewBox}}" {...props}>
+        {{content}}
+    </Icon>
+);
+
+export default {{componentName}};
