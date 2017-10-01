@@ -6,7 +6,10 @@ function setElementColorAttributeValue(element, value, attributes = ['fill', 'st
     });
 
     attributeNames.forEach((attributeName) => {
-        element.setAttribute(attributeName, value);
+        const existingValue = element.getAttribute(attributeName);
+        if (!_.includes(['none'], existingValue)) {
+            element.setAttribute(attributeName, value);
+        }
     });
 
     if (element.children && element.children.length) {
