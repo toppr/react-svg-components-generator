@@ -5,8 +5,8 @@ Generate React Icon Components from SVG files
 ## Usage
 __Install the npm package:__
 
-```js
-npm install --save react-svg-components-generator
+```
+$ npm install --save react-svg-components-generator
 ```
 
 __Create React components:__
