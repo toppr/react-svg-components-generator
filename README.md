@@ -1,4 +1,4 @@
-# react-svg-icon-components-generator
+# react-svg-components-generator
 Generate React Icon Components from SVG files
 
 ---
@@ -15,9 +15,9 @@ Add your SVG icons to `svg` directory and create a JS file with the following co
 
 ```js
 const path = require('path');
-const componentGenerator = require('react-svg-components-generator');
+const componentsGenerator = require('react-svg-components-generator');
 
-componentGenerator({
+componentsGenerator({
     svgSrcDir: path.join(__dirname, 'svg'),
     componentDestDir: path.join(__dirname, 'components'),
 });
